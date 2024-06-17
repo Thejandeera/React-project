@@ -1,18 +1,26 @@
-function Header(){
-    return(
+import React from 'react';
+import './Header.css';
+
+function Header() {
+    const name = "Thejandeera Sandeepana";
+    return (
+        
         <header>
-            <h1>My Website</h1>
+            <h1>{name}</h1>
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
+                    <vr/>
                     <li><a href="">About</a></li>
+                    <vr/>
                     <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
+                    <vr/>
+                    <li><a target="blank" href="https://www.linkedin.com/in/thejandeera-sandeepana-6baa17208">Linkedin</a></li>
                 </ul>
             </nav>
-            <hr></hr>
+            <hr />
         </header>
     );
 }
 
-export default Header
+export default Header;

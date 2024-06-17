@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px; /* Add some padding inside the ul */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #c1bfbf; /* Light background color */
+  border-radius: 15px; /* Optional: rounded corners */
+  font-size: 28px; /* Increase font size */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000000;
+  transition: color 0.25s;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  border: 1.5px solid #000000;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  
+}
