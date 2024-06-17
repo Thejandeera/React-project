@@ -153,3 +153,21 @@ button:focus-visible {
 .student p{
   margin: 0;
 }
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: hsl(120,100%,42%);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0;
+}
+
+.login-prompet{
+  font-size: 2.5em;
+  background-color: hsl(14, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0;
+}
