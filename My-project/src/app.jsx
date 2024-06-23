@@ -6,6 +6,8 @@ import Button from './Button.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './list.jsx'
+import Button2 from './Button2.jsx'
+import Profilepicture from './Profilepicture.jsx'
 
 export function App() {
 
@@ -27,9 +29,12 @@ export function App() {
     <Card/>
     <Card/>
     <Card/>
-    <List items={fruits} category ="fruits" />
-    <List items={Vegetables} category ="Vegetables" />
+    {/* <List items={fruits} category ="fruits" />
+    <List items={Vegetables} category ="Vegetables" /> */}
     <hr></hr>
+    <Button2></Button2>
+    <hr></hr>
+    <Profilepicture/>
     
     {/* <UserGreeting isLoggedIn ={true} username = "Thejan"/> */}
     <Student name="Thejan" age = {30} isStudent={true} />

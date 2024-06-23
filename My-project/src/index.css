@@ -171,3 +171,14 @@ button:focus-visible {
   border-radius: 15px;
   margin: 0;
 }
+
+.button2{
+  color: black;
+  border: 2px solid black;
+}
+
+.Prifilepicture-image{
+  max-height: 200px;
+  max-width: 150px;
+  
+}
