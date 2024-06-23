@@ -8,6 +8,11 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './list.jsx'
 import Button2 from './Button2.jsx'
 import Profilepicture from './Profilepicture.jsx'
+import MyComponent from './Mycomponent.jsx'
+import Counter from './Counter.jsx'
+import Onchange from './Onchange.jsx'
+import Colorpicker from './Colorpiker.jsx'
+import Mycomponent2 from './Mycomponent2.jsx'
 
 export function App() {
 
@@ -35,6 +40,13 @@ export function App() {
     <Button2></Button2>
     <hr></hr>
     <Profilepicture/>
+    <MyComponent/>
+    <Counter/>
+    <Onchange/>
+    <hr></hr>
+    <Colorpicker/>
+    <hr></hr>
+    <Mycomponent2/>
     
     {/* <UserGreeting isLoggedIn ={true} username = "Thejan"/> */}
     <Student name="Thejan" age = {30} isStudent={true} />
