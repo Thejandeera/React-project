@@ -19,7 +19,7 @@ import UseEffect from './UseEffect.jsx'
 import Width from './Width.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
-import Useref from './Useref.jsx'
+
 
 export function App() {
 
@@ -69,7 +69,6 @@ export function App() {
     <br/>
     <ComponentA/>
     <hr/>
-    <Useref/>
     
     {/* <UserGreeting isLoggedIn ={true} username = "Thejan"/> */}
     <Student name="Thejan" age = {30} isStudent={true} />
