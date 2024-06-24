@@ -13,6 +13,8 @@ import Counter from './Counter.jsx'
 import Onchange from './Onchange.jsx'
 import Colorpicker from './Colorpiker.jsx'
 import Mycomponent2 from './Mycomponent2.jsx'
+import Updatearray from './Updatearray.jsx'
+import ToDoList from './ToDOList.jsx'
 
 export function App() {
 
@@ -47,6 +49,14 @@ export function App() {
     <Colorpicker/>
     <hr></hr>
     <Mycomponent2/>
+    <br/>
+    <Updatearray/>
+    <br></br>
+    <hr></hr>
+    <br/>
+    <ToDoList/>
+    <br/>
+    <hr></hr>
     
     {/* <UserGreeting isLoggedIn ={true} username = "Thejan"/> */}
     <Student name="Thejan" age = {30} isStudent={true} />
