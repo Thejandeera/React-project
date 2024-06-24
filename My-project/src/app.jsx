@@ -15,6 +15,11 @@ import Colorpicker from './Colorpiker.jsx'
 import Mycomponent2 from './Mycomponent2.jsx'
 import Updatearray from './Updatearray.jsx'
 import ToDoList from './ToDOList.jsx'
+import UseEffect from './UseEffect.jsx'
+import Width from './Width.jsx'
+import DigitalClock from './DigitalClock.jsx'
+import ComponentA from './ComponentA.jsx'
+import Useref from './Useref.jsx'
 
 export function App() {
 
@@ -57,6 +62,14 @@ export function App() {
     <ToDoList/>
     <br/>
     <hr></hr>
+    <UseEffect/>
+    <Width/>
+    <hr/>
+    <DigitalClock/>
+    <br/>
+    <ComponentA/>
+    <hr/>
+    <Useref/>
     
     {/* <UserGreeting isLoggedIn ={true} username = "Thejan"/> */}
     <Student name="Thejan" age = {30} isStudent={true} />

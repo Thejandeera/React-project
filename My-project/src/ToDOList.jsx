@@ -23,7 +23,7 @@ function ToDoList(){
             const updatedTasks = [...tasks];
             [updatedTasks[index], updatedTasks[index-1]] = [updatedTasks[index-1], updatedTasks[index]];
             setTasks(updatedTasks);
-        }
+        } 
     }
     
     function moveTaskDown(index){
